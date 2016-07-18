@@ -1,0 +1,21 @@
+{
+  "name": "naked angular build",
+  "description": "just a good starting point",
+  "main": "",
+  "authors": [
+    "p.senkel"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}

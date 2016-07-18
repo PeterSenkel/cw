@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>naked angular build</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="app/public/css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="app/public/css/main.css">
+
+    <script src="app/public/js/vendor/angular2-polyfills.js"></script>
+    <script src="app/public/js/vendor/es6-shim.min.js"></script>
+    <script src="app/public/js/vendor/system-polyfills.js"></script>
+    <script src="app/public/js/vendor/shims_for_IE.js"></script>
+
+    <script src="app/public/js/vendor/system.src.js"></script>
+    <script src="app/public/js/vendor/Rx.js"></script>
+    <script src="app/public/js/vendor/angular2.dev.js"></script>
+
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('./app/public/js/main')
+                .then(null, console.error.bind(console));
+    </script>
+</head>
+
+<body>
+<main></main>
+</body>
+</html>
