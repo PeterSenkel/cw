@@ -1,0 +1,36 @@
+CACHE MANIFEST
+
+# Version: 1.01
+
+app/public/
+
+app/public/css/
+app/public/css/main.css
+app/public/css/vendor/bootstrap.css
+
+app/public/js/
+app/public/js/main.js
+
+app/public/js/components/app.component.js
+app/public/js/components/encoder.component.js
+app/public/js/components/letters.component.js
+app/public/js/components/results.component.js
+app/public/js/components/settings.component.js
+app/public/js/components/models/letter.js
+app/public/js/components/models/settings.js
+app/public/js/components/service/encoding.service.js
+app/public/js/components/service/letter.service.js
+app/public/js/vendor/angular2-polyfills.js
+
+app/public/js/vendor/angular2.dev.js
+app/public/js/vendor/system-polyfills.js
+app/public/js/vendor/shims_for_IE.js
+app/public/js/vendor/system.src.js
+app/public/js/vendor/Rx.js
+
+icon.png
+index.html
+
+icon_76.png
+icon_120.png
+icon_152.png

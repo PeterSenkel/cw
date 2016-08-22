@@ -1,0 +1,20 @@
+@import "utils/variables";
+
+.letters {
+    padding-top: 15px;
+    .letter {
+        width: 40px;
+        margin-bottom: 4px;
+
+        margin-left: 2px;
+        margin-right: 2px;
+
+        background: #FBD19F;
+        border-color: $color-background-dark  ;
+
+        &.active {
+            font-weight: normal;
+            background: none;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@import "variables";
+
+.headline {
+    @extend .col-xs-12;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid $color-font-default;
+    text-shadow: 0 0 3px #ccc;
+}

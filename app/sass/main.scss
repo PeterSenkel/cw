@@ -1,3 +1,37 @@
+@import "overrides";
+@import "settings";
+@import "encoder";
+@import "letters";
+@import "results";
+@import "utils/text";
+
 body {
-    color: red;
+    font-size: $size-font-default;
+    color: $color-font-default;
+    background: black;
+}
+
+main {
+    max-width: 320px;
+    height: 460px;
+    margin: 0 auto;
+    background: $color-background-default;
+    overflow: hidden;
+
+    h1 {
+        font-size: 14px;
+        padding: 2px;
+        margin: 0 0 15px 0;
+        border-bottom: 1px solid $color-background-dark;
+    }
+
+    .btn, select {
+        background: none;
+        border-color: $color-background-dark;
+
+        &:hover {
+            background: none;
+            border-color: $color-background-dark;
+        }
+    }
 }

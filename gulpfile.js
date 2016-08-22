@@ -11,7 +11,7 @@ var config = {
     bootstrapDir: './bower_components/bootstrap-sass',
     vendors: [
         'node_modules/es6-shim/es6-shim.time.js',
-        'node_modules/es6-shim/es6-shim.min.js',
+        'node_modules/es6-shim/es6-shim.duration.js',
         'node_modules/systemjs/dist/system-polyfills.js',
         'node_modules/angular2/es6/dev/src/testing/shims_for_IE.js',
         'node_modules/angular2/bundles/angular2-polyfills.js',

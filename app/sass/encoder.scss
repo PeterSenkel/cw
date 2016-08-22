@@ -1,0 +1,76 @@
+@import "utils/variables";
+
+.encoder {
+    .leds {
+        .led-green, .led-red {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            margin: 0;
+            border-radius: 50%;
+            border-color: #aaaaaa;
+
+            -webkit-transition: background 0s;
+            transition: background 0s;
+
+            &.led-1 {
+                left: 15px;
+            }
+
+            &.led-2 {
+                left: 35px;
+            }
+
+            &.led-3 {
+                left: 55px;
+            }
+
+            &.led-4 {
+                left: 75px;
+            }
+
+            &.led-5 {
+                left: 95px;
+            }
+
+            &.led-6 {
+                left: 115px;
+            }
+
+            &.led-7 {
+                left: 135px;
+            }
+
+            &.led-red {
+                background: #8F1A01;
+            }
+
+            &.led-green {
+                background: #1c6e1c;
+            }
+
+            &.led-green-on {
+                background: #37d633;
+            }
+
+            &.led-red-on {
+                background: #ff2e01;
+            }
+        }
+    }
+
+    .start, .meter {
+        position: absolute;
+        top: 35px;
+        left: 15px;
+        width: 65px;
+        height: 75px;
+        margin: 0;
+        line-height: 60px;
+    }
+
+    .meter {
+        left: 85px;
+    }
+}
